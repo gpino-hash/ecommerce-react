@@ -1,0 +1,14 @@
+/* @src/components/Navbar.module.css */
+
+.nav {
+  @apply dark:text-zinc-200 bg-slate-900 items-center flex flex-wrap justify-between
+}
+
+.logo {
+  @apply w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start
+}
+
+.textColor {
+  @apply text-zinc-200 dark:bg-slate-900
+}
+
